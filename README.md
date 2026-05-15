@@ -83,8 +83,9 @@ npm run dev
 ### 7. Open the Application
 
 Visit:
-
+```
 http://localhost:5173
+```
 ### 8. Grant Permissions
 
 Allow webcam and microphone access for real-time monitoring.
