@@ -47,7 +47,7 @@ EduGaze is an AI-powered web application that monitors student attention during 
 # System Design
 ### System Architecture
 The figure shows EduGaze's modular, real-time architecture, centered on a backend server connecting the User Interface with AI modules. It has three layers: an Input Layer (for webcam and mic), an AI Processing Layer (gaze tracking, attention detection, speech-to-text), and an Application & Storage Layer (managing operations and data). This hub-and-spoke design allows independent module updates, providing a scalable and efficient solution for online learning.
-![img]()
+![img](https://github.com/snehadenny/EDUGAZE/blob/b8ad2ad9b2ac7172fd3a134a56fee7ee54b80014/System%20Arch.jpeg)
 ![img]()
 
 ### Use case diagram
