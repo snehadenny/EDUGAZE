@@ -14,16 +14,20 @@ EduGaze is an AI-powered web application that monitors student attention during 
 - Privacy-Focused Design
 
 ## Directory Breakdown
+
+```bash
 webgazer/
 ├── apps/
-│   ├── server/           # Express API & Socket.io
-│   ├── dashboard2/       # React Admin Dashboard
-│   ├── extension/        # Student Tracking Extension
-│   ├── extension-teacher/ # Experimental Teacher Extension
-│   └── uploads/          # Session resources (notes)
-├── dev/                  # Development scripts and tools
-├── html/                 # Documentation & Static resources
-└── package.json          # Monorepo configuration
+│   ├── server/              ➜ Express API & Socket.io backend
+│   ├── dashboard2/          ➜ React-based Admin Dashboard
+│   ├── extension/           ➜ Student Tracking Extension
+│   ├── extension-teacher/   ➜ Teacher Extension Module
+│   └── uploads/             ➜ Uploaded notes and session resources
+│
+├── dev/                     ➜ Development scripts and utilities
+├── html/                    ➜ Documentation and static files
+└── package.json             ➜ Monorepo configuration
+```
 
 # Technologies Used
 ### Frontend
