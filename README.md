@@ -47,8 +47,10 @@ EduGaze is an AI-powered web application that monitors student attention during 
 # System Design
 ### System Architecture
 The figure shows EduGaze's modular, real-time architecture, centered on a backend server connecting the User Interface with AI modules. It has three layers: an Input Layer (for webcam and mic), an AI Processing Layer (gaze tracking, attention detection, speech-to-text), and an Application & Storage Layer (managing operations and data). This hub-and-spoke design allows independent module updates, providing a scalable and efficient solution for online learning.
+
 ![img](https://github.com/snehadenny/EDUGAZE/blob/b8ad2ad9b2ac7172fd3a134a56fee7ee54b80014/System%20Arch.jpeg)
-![img]()
+![img]
+
 
 ### Use case diagram
 The Use Case diagram shows key interactions between the Student, Teacher, and EduGaze modules. It outlines actions like capturing video, calibrating gaze, and monitoring attention. It also maps how the system creates student summaries, pedagogical reports, and AI feedback. This blueprint ensures all user actions align with system features, supporting an intelligent learning environment.
@@ -61,11 +63,17 @@ The Sign-in page is the starting interface for instructors to begin real-time st
 
 ### Knowledge Base
 The Knowledge Base interface allows instructors to upload and manage study materials like PDFs, DOCX, PPTX, and images. Uploaded resources are displayed in the resource library for easy student access, supporting organized and efficient learning material distribution.
+
 ![img](https://github.com/snehadenny/EDUGAZE/blob/5799d8dd91d07eedbf5688a32208db3a3f2df2e4/knowledge%20base.jpeg)
 
 ### Past And Live session View
+past: 
+
 ![img](https://github.com/snehadenny/EDUGAZE/blob/6960b112ea2b1de0b0653e3b74e2561353b4b695/past.jpeg)
-![img]()
+
+live:
+
+![img](https://github.com/snehadenny/EDUGAZE/blob/d589730dcc488a93a95516abac2827c94c154ebb/live.jpeg)
 
 ### Session Report
 The Sessional Report interface provides a summary of completed sessions, including average engagement, attendance, and peak distraction moments. It also supports report sharing and data export for further analysis.
