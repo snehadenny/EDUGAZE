@@ -46,31 +46,40 @@ EduGaze is an AI-powered web application that monitors student attention during 
 
 # Running Process
  ### 1. Clone the Repository
-➡ ''bash
+ ```bash
 git clone <repository-link>
-➡ cd EduGaze
+cd EduGaze
+```
 ### 2. Install Frontend Dependencies
-➡ cd frontend
-➡ npm install
-### 3. Install Backend Dependencies
-➡ cd ../backend
+```bash 
+cd frontend
 npm install
+```
+### 3. Install Backend Dependencies
+```
+cd ../backend
+npm install
+```
 ### 4. Configure Environment Variables
 
 Create a .env file in the backend folder and add:
-
-➡ PORT=5000
-➡ MONGO_URI=your_database_url
-➡ GEMINI_API_KEY=your_api_key
-➡ JWT_SECRET=your_secret_key
+```
+PORT=5000
+MONGO_URI=your_database_url
+GEMINI_API_KEY=your_api_key
+JWT_SECRET=your_secret_key
+```
 ### 5. Start the Backend Server
-➡ npm start
+```
+npm start
+```
 ### 6. Start the Frontend Application
 
 Open another terminal and run:
-
-➡ cd frontend
-➡ npm run dev
+```
+cd frontend
+npm run dev
+```
 ### 7. Open the Application
 
 Visit:
@@ -81,24 +90,24 @@ http://localhost:5173
 Allow webcam and microphone access for real-time monitoring.
 
 ### 9. Start a Session
-➡ Sign in as Teacher
-➡ Enter session details
-Click Initialize Tracking
+- Sign in as Teacher
+- Enter session details
+- Click Initialize Tracking
 ### 10. Features During Session
-➡ Real-time gaze tracking
-➡ Attention monitoring
-➡ Attendance tracking
-➡ Tab switching detection
-➡ AI transcript generation
-➡ Dashboard analytics
+- Real-time gaze tracking
+- Attention monitoring
+- Attendance tracking
+- Tab switching detection
+- AI transcript generation
+- Dashboard analytics
 ### 11. End Session
 
 After ending the session, the system generates:
 
-➡ Engagement reports
-➡ Student analytics
-➡ AI insights
-➡ Session summaries
+- Engagement reports
+- Student analytics
+- AI insights
+- Session summaries
 
 # System Design
 ### System Architecture
