@@ -44,6 +44,62 @@ EduGaze is an AI-powered web application that monitors student attention during 
 - Low-latency real-time processing architecture
 - Secure web-based deployment
 
+# Running Process
+ ### 1. Clone the Repository
+➡ ''bash
+git clone <repository-link>
+➡ cd EduGaze
+### 2. Install Frontend Dependencies
+➡ cd frontend
+➡ npm install
+### 3. Install Backend Dependencies
+➡ cd ../backend
+npm install
+### 4. Configure Environment Variables
+
+Create a .env file in the backend folder and add:
+
+➡ PORT=5000
+➡ MONGO_URI=your_database_url
+➡ GEMINI_API_KEY=your_api_key
+➡ JWT_SECRET=your_secret_key
+### 5. Start the Backend Server
+➡ npm start
+### 6. Start the Frontend Application
+
+Open another terminal and run:
+
+➡ cd frontend
+➡ npm run dev
+### 7. Open the Application
+
+Visit:
+
+http://localhost:5173
+### 8. Grant Permissions
+
+Allow webcam and microphone access for real-time monitoring.
+
+### 9. Start a Session
+➡ Sign in as Teacher
+➡ Enter session details
+Click Initialize Tracking
+### 10. Features During Session
+➡ Real-time gaze tracking
+➡ Attention monitoring
+➡ Attendance tracking
+➡ Tab switching detection
+➡ AI transcript generation
+➡ Dashboard analytics
+### 11. End Session
+
+After ending the session, the system generates:
+
+➡ Engagement reports
+➡ Student analytics
+➡ AI insights
+➡ Session summaries
+
 # System Design
 ### System Architecture
 The figure shows EduGaze's modular, real-time architecture, centered on a backend server connecting the User Interface with AI modules. It has three layers: an Input Layer (for webcam and mic), an AI Processing Layer (gaze tracking, attention detection, speech-to-text), and an Application & Storage Layer (managing operations and data). This hub-and-spoke design allows independent module updates, providing a scalable and efficient solution for online learning.
