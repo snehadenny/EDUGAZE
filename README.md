@@ -61,7 +61,7 @@ The Sign-in page is the starting interface for instructors to begin real-time st
 
 ### Knowledge Base
 The Knowledge Base interface allows instructors to upload and manage study materials like PDFs, DOCX, PPTX, and images. Uploaded resources are displayed in the resource library for easy student access, supporting organized and efficient learning material distribution.
-![img]()
+![img](https://github.com/snehadenny/EDUGAZE/blob/5799d8dd91d07eedbf5688a32208db3a3f2df2e4/knowledge%20base.jpeg)
 
 ### Past And Live session View
 ![img]()
