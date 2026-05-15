@@ -31,34 +31,20 @@ webgazer/
 
 # Technologies Used
 ### Frontend
-- React – Teacher dashboard and user interface
-- TypeScript – Frontend development
-- HTML, CSS – UI design and styling
-- Recharts – Analytics and graphs
-- Socket.IO – Live data updates
-- Lucide – Dashboard icons
+- React 19 & Vite -for a blazing-fast dashboard.
+- Mantine UI -for a premium, accessible component library.
 ### Backend
-- Node.js – Backend server
-- Express.js – API handling and server management
-- Socket.IO – Real-time synchronization
-- Multer – File uploading support
-- JWT / Authentication APIs – User authentication and session handling
+- Node.js & Express with Socket.IO  -for real-time duplex communication between extension and dashboard.
 ### AI & Machine Learning
 - WebGazer.js – Gaze tracking
 - OpenCV – Face and eye detection
 - Google Gemini – AI-based summaries and suggestions
 - NLP (Natural Language Processing) – Automated notes generation
 - Speech-to-Text – Real-time transcript generation
-### Database & Storage
-- Database (DB) – Session data, notes, and analytics storage
-- Cloud-based storage – Learning material and transcript storage
-- Browser & Extension Technologies
-- Google Chrome Extension – Real-time monitoring and tab tracking
-- Browser APIs – Webcam, microphone, and activity detection
-### Communication & Deployment
-- REST APIs – System integration and communication
-- Low-latency real-time processing architecture
-- Secure web-based deployment
+### Artificial Intelligence
+Ollama (Llama 3.2) -powers our local LLM infrastructure for report generation and real-time content recovery.
+### Data Persistence
+SQLite with optimized indexing -for low-latency event logging and session management.
 
 # Running Process
  ### 1. Clone the Repository
