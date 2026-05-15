@@ -64,7 +64,7 @@ The Knowledge Base interface allows instructors to upload and manage study mater
 ![img](https://github.com/snehadenny/EDUGAZE/blob/5799d8dd91d07eedbf5688a32208db3a3f2df2e4/knowledge%20base.jpeg)
 
 ### Past And Live session View
-![img]()
+![img](https://github.com/snehadenny/EDUGAZE/blob/6960b112ea2b1de0b0653e3b74e2561353b4b695/past.jpeg)
 ![img]()
 
 ### Session Report
